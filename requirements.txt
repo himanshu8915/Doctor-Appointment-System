@@ -1,0 +1,37 @@
+# --- CORE APP REQUIREMENTS --- #
+fastapi
+uvicorn
+pymongo
+redis
+requests
+streamlit
+python-dotenv
+
+# --- LANGCHAIN + LANGGRAPH --- #
+langchain
+langgraph
+langgraph-checkpoint
+langchain-core
+langchain_core
+langchain-community
+langchainhub
+langchain-openai
+langchain-groq
+langchain-google-genai
+langgraph-checkpoint-redis
+
+
+# --- AGENT TOOLS --- #
+tavily-python
+
+# --- BACKEND UTILS --- #
+typing-extensions
+pydantic
+pydantic-settings
+
+# --- FOR FRONTEND COMM & FORMATTING --- #
+jinja2
+rich
+
+# --- Optional but Helpful --- #
+httpx  # Used internally in some LangChain integrations
